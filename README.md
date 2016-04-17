@@ -1,1 +1,2 @@
 # Wells_CSCI2270_FinalProject
+I will be creating a user input text-based game in which the player is traversing a strange forest at night, looking for clues to a series of murders/kidnappings. He will be prompted with a series of choices at each stop, and his path will be altered according to the decisions he makes. He may pick up and interact with objects along the way and use them to further his progress or delay it. The end game will either involve collecting all of the clues and returning home, or becoming a victim to the criminal mastermind's deceit.
