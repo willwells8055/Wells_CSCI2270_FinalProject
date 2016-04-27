@@ -4,23 +4,23 @@ I will be creating a user input text-based game in which the player is traversin
 
 Phase 2:
 
-Summary
+Summary - 
 The programs starts by asking the user whether or not they want to play a game. If yes, you are then given a bit of brieft backgorund informaton on the setting and plot of the game, and then prompted with a set of choices to start moving forward. The game will then play out from there based on the decisions made by the user.
 
-How to Run
+How to Run - 
 Download the FinalProject.cpp file, Forest.h file, and Forest.cpp file and compile them using your preferred C++ compiler.
 
-Dependencies
+Dependencies - 
 No extra dependencies.
 
-System Requirements
+System Requirements - 
 Runs on all operating systems
 
-Group Members
+Group Members - 
 Wylie Wells
 
-Contributors
+Contributors - 
 N/A
 
-Open Issues/Bugs
+Open Issues/Bugs - 
 Would like to add more possible paths/choices for player to make and tools/notes to add to inventory to reach a better end to the game and in different ways.
