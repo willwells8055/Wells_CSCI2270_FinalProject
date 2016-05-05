@@ -71,6 +71,7 @@ void Forest::opt1(){
     cout<<"A. Start walking"<<endl;
     cout<<"B. Sit down and ask 'How did I get here?'"<<endl;
     cout<<"C. Look around."<<endl;
+    cin>>input;
      if(input=="A"){
         options2();
     }
@@ -219,6 +220,10 @@ void Forest::options3(){
     if(input=="B"){
         options4();
     }
+    else{
+        cout<<"Please enter a valid input"<<endl;
+        options3();
+    }
 
 }
 
@@ -273,6 +278,9 @@ void Forest::pickUpObject(vector<string>inventory, string object){
 }
 
 void Forest::displayPosition(){
+    if(position==0){
+        cout<<"You see nothing but trees and a few stars peaking out above them."<<endl;
+    }
     if(position==1){
         cout<<"You're 5 minutes from where you started. Still nothing but trees around you."<<endl;
     }
